@@ -24,15 +24,15 @@ class Binary_Search:
 			if t == A[m]:
 				#return index
 				return m
-				
-		#return -1 as unsuccessful		
+
+		#return -1 if unsuccessful		
 		return -1
 
 	def recursive(self,A,t,p,r):
 		
 		# left index is greater then right index
-		# return -1 as unsuccessful
 		if p > r:
+			# return -1 if unsuccessful
 			return -1
 
 		# middle index
